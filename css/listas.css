@@ -1,0 +1,15 @@
+body {
+  font-size: 32px;
+}
+
+ul.menu {
+  list-style: none; /* Sem deixar as "bolinhas" do menu <ul><li> aparecerem  */
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu > li {
+  display: inline-block; /* Para deixar o menu INLINE e não um em baixo do outro */
+  border: 3px solid red;
+  padding: 5px; /* o Texto ta muito grudado com a borda, para separar */
+}

@@ -14,4 +14,5 @@
 <ul>
     <li> Aula 04-01 - Preparando o Projeto </li>
     <li> Aula 04-02 - Criando o cabeçalho da página </li>
+    <li> Aula 04-03 - Listas ordenadas e não-ordenadas </li>
 </ul>
