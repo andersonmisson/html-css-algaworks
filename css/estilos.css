@@ -74,3 +74,11 @@ article > ul > li {
 article > footer {
   text-align: center;
 }
+
+.botao{
+    display: inline-block; /* Para ele se comportar em linha */
+    background-color: #127d00;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none; /* tira o sublinhado do link assinar */
+}
