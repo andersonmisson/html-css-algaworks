@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box; /* Fique do tamanho da borda sem alterar o tamanho */
+}
+
+body {
+    margin: 0; /* Serve para aproveitar ao maximo o espaçamento da tela */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
