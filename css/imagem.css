@@ -1,0 +1,8 @@
+body {
+  font-size: 26px;
+}
+
+img {
+  float: right; /* Serve para fazer a imagem "flutuar" */
+  margin-right: 20px;
+}
