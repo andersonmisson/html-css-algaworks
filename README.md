@@ -13,4 +13,5 @@
 
 <ul>
     <li> Aula 04-01 - Preparando o Projeto </li>
+    <li> Aula 04-02 - Criando o cabeçalho da página </li>
 </ul>

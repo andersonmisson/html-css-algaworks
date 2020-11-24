@@ -8,3 +8,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+
+header {
+  height: 60px; /* Altura do cabeçalho */
+  border-bottom: 1px solid #ccc; /* Linha Cinza na parte de baixo*/
+}
+
+header img { /* Imagem que está dentro do Header */
+  margin-top: 12px; /* Descer a imagem para ficar centralizado */
+}
+
+.container {
+  width: 1200px; /* 1200px é mais ou menos o que os monitores hoje tem*/
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; /* p AUTO é para deixar no tamanho da div no automatico (podendo diminuir um pouco a tela ) */
+}
