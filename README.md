@@ -23,3 +23,11 @@
     <li> Aula 04-09 - As pseudo-classes :focus e :hover </li>
     <li> Aula 04-10 - Reset CSS e Normalize.css </li>
 </ul>
+
+<br>
+
+### Capítulo 05
+
+<ul>
+    <li> Aula 05-03 - Unidade de medida: percentual </li>
+</ul>
