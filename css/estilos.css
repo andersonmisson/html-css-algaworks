@@ -19,7 +19,7 @@ header img { /* Imagem que está dentro do Header */
 }
 
 .container {
-  width: 1200px; /* 1200px é mais ou menos o que os monitores hoje tem*/
+  width: 100%; /* 1200px é mais ou menos o que os monitores hoje tem*/
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; /* p AUTO é para deixar no tamanho da div no automatico (podendo diminuir um pouco a tela ) */
@@ -39,9 +39,9 @@ header img { /* Imagem que está dentro do Header */
 article {
   padding: 10px;
   border: 1px solid #95a4a5;
-  width: 370px;
+  width: 30%;
   float: left;
-  margin-right: 30px;
+  margin-right: 5%;
 }
 
 article > h2 {
