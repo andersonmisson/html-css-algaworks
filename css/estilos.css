@@ -39,9 +39,14 @@ header img { /* Imagem que está dentro do Header */
 article {
   padding: 10px;
   border: 1px solid #95a4a5;
-  width: 30%;
-  float: left;
-  margin-right: 5%;
+}
+
+@media (min-width: 800px){ /* Quando o Layout chegar a 800px, entrar nessa regra*/
+    article{ /* Quando a tela for maior que 800px, dai sim, fica lado a lado*/
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
 }
 
 article > h2 {
