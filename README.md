@@ -29,6 +29,13 @@
 ### Capítulo 05
 
 <ul>
+    <li> Aula 05-01 - O que é responsive web design? </li>
+    <li> Aula 05-02 - Unidade de medida: pixel </li>
     <li> Aula 05-03 - Unidade de medida: percentual </li>
     <li> Aula 05-04 - Meta tag viewport </li>
+    <li> Aula 05-05 - Layout fixo e fluído </li>
+    <li> Aula 05-06 - Layout responsivo e media queries </li>
+    <li> Aula 05-07 - Como funciona um sistema de Grid CSS </li>
+    <li> Aula 05-08 - Sistema de grid do Bootstrap </li>
+    <li> Aula 05-09 - Ajustando o projeto para usar Grid CSS </li>
 </ul>

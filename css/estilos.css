@@ -18,13 +18,6 @@ header img { /* Imagem que está dentro do Header */
   margin-top: 12px; /* Descer a imagem para ficar centralizado */
 }
 
-.container {
-  width: 100%; /* 1200px é mais ou menos o que os monitores hoje tem*/
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto; /* p AUTO é para deixar no tamanho da div no automatico (podendo diminuir um pouco a tela ) */
-}
-
 #planos {
   padding: 80px 0; /* 80px de cima e baixo e 0px da esquerda e direita */
 }
@@ -39,14 +32,6 @@ header img { /* Imagem que está dentro do Header */
 article {
   padding: 10px;
   border: 1px solid #95a4a5;
-}
-
-@media (min-width: 800px){ /* Quando o Layout chegar a 800px, entrar nessa regra*/
-    article{ /* Quando a tela for maior que 800px, dai sim, fica lado a lado*/
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-    }
 }
 
 article > h2 {
