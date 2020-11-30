@@ -51,3 +51,9 @@
     <li> Aula 06-06 - Ajustando o projeto do curso com BEM </li>
     <li> Aula 06-07 - Mais organização: CSS com GUIDELINES </li>
 </ul>
+
+### Capítulo 07
+
+<ul>
+    <li> Aula 07-01 - Unidades de medida: EM e REM </li>
+</ul>
