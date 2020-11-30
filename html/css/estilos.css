@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box; /* Fique do tamanho da borda sem alterar o tamanho */
+}
+
+body {
+    margin: 0; /* Serve para aproveitar ao maximo o espaçamento da tela */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+  height: 60px; /* Altura do cabeçalho */
+  border-bottom: 1px solid #ccc; /* Linha Cinza na parte de baixo*/
+}
+
+header img { /* Imagem que está dentro do Header */
+  margin-top: 12px; /* Descer a imagem para ficar centralizado */
+}
+
+#planos {
+  padding: 80px 0; /* 80px de cima e baixo e 0px da esquerda e direita */
+}
+
+
+#planos::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+article {
+  padding: 10px;
+  border: 1px solid #95a4a5;
+}
+
+article > h2 {
+  background-color: #95a4a5;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  margin: -10px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+article > div {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+article > ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+article > ul > li {
+  text-align: center;
+}
+
+article > footer {
+  text-align: center;
+}
+
+.botao{
+    display: inline-block; /* Para ele se comportar em linha */
+    background-color: #127d00;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none; /* tira o sublinhado do link assinar */
+}
+
+.botao:hover, .botao:focus { /* : PSEUDO-CLASSE, :: PSEUDO-ELEMENTO */
+    background-color: #0E6400; 
+    /*  HOVER se passar o mouse em cima do botão ele muda, no caso para verde escuro 
+        FOCUS se movimentar pelos botões através do teclado, dai ele muda de cor.
+    */
+}
