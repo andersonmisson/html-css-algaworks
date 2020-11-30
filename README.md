@@ -39,3 +39,15 @@
     <li> Aula 05-08 - Sistema de grid do Bootstrap </li>
     <li> Aula 05-09 - Ajustando o projeto para usar Grid CSS </li>
 </ul>
+
+### Capítulo 06
+
+<ul>
+    <li> Aula 06-01 - Especificidade do CSS </li>
+    <li> Aula 06-02 - Caos no CSS: porque uma metodologia é importante? </li>
+    <li> Aula 06-03 - A Metodologia BEM: Seu código escalável </li>
+    <li> Aula 06-04 - Como usar BEM na prática - parte 1 </li>
+    <li> Aula 06-05 - Como usar BEM na prática - parte 2 </li>
+    <li> Aula 06-06 - Ajustando o projeto do curso com BEM </li>
+    <li> Aula 06-07 - Mais organização: CSS com GUIDELINES </li>
+</ul>
