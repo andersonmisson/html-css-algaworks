@@ -56,4 +56,5 @@
 
 <ul>
     <li> Aula 07-01 - Unidades de medida: EM e REM </li>
+    <li> Aula 07-02 - Ajustando unidades de medida no projeto </li>
 </ul>
