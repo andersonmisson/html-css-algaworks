@@ -57,4 +57,22 @@
 <ul>
     <li> Aula 07-01 - Unidades de medida: EM e REM </li>
     <li> Aula 07-02 - Ajustando unidades de medida no projeto </li>
+    <li> Aula 07-03 - Adicionando chamada principal </li>
+    <li> Aula 07-04 - Adicionando Depoimento </li>
+    <li> Aula 07-05 - Adicionando rodapé </li>
+    <li> Aula 07-06 - Posicionamento estático e fixo </li>
+    <li> Aula 07-07 - Posicionamento Relativo </li>
+    <li> Aula 07-08 - Posicionamento Absoluto </li>
+    <li> Aula 07-09 - Adicionando rótulo no plano </li>
+    <li> Aula 07-10 - Ajustando margem do plano </li>
+    <li> Aula 07-11 - Adicionando aspas no depoimento </li>
+    <li> Aula 07-12 - Adicionando o bloco de navegação </li>
+    <li> Aula 07-13 - Adicionando o menu para telas pequenas </li>
+    <li> Aula 07-14 - Ajustando o menu para telas médias e grandes </li>
+    <li> Aula 07-15 - JavaScript Hook: chaveando o menu </li>
+    <li> Aula 07-16 - Criando um formulário: Assinatura do plano </li>
+    <li> Aula 07-17 - Concluindo o formulário de assinatura de plano </li>
+    <li> Aula 07-18 - Entendendo as tabelas do HTML </li>
+    <li> Aula 07-19 - Aplicando estilos em tabelas com CSS </li>
+    <li> Aula 07-20 - Conclusão e próximos passos </li>
 </ul>
