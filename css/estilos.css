@@ -79,3 +79,34 @@ article > footer {
         FOCUS se movimentar pelos botões através do teclado, dai ele muda de cor.
     */
 }
+
+/*--------------------*\
+  NAVEGACAO
+\*--------------------*/
+.navegacao {
+}
+
+.navegacao__menu { /* Elemento de Navegação */
+  float: right;
+}
+
+
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
+.botao-chaveador {
+  width: 24px;
+  height: 24px;
+  border: 0;
+
+  background: none;
+  background-image: url("../imagens/bars.png");
+
+  outline: none;
+}
+
+@media(min-width: 992px) {
+  .botao-chaveador {
+    display: none;
+  }
+}

@@ -193,3 +193,33 @@
 .depoimento__autor > p {
   margin-top: 10px; /* Para o texto ficar proximo a imagem*/
 }
+
+/*--------------------*\
+  NAVEGACAO
+\*--------------------*/
+.navegacao {
+}
+
+.navegacao__menu { /* Elemento de Navegação */
+  float: right;
+}
+
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
+.botao-chaveador {
+  width: 24px;
+  height: 24px;
+  border: 0;
+
+  background: none;
+  background-image: url("../imagens/bars.png");
+
+  outline: none; /* Para tirar a borda que o navegador coloca */
+}
+
+@media(min-width: 992px) {
+  .botao-chaveador {
+    display: none; /* Aqui eu estou dizendo que eu não quero exibir o botão, caso a tela esteja maior que 992px */
+  }
+}
