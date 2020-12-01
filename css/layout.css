@@ -1,6 +1,16 @@
 .layout-cabecalho {
   height: 60px;
   border-bottom: 1px solid #ccc;
+
+  background-color: #fff;
+}
+
+.layout-cabecalho--home {
+  position: fixed;  /* Deixando o Cabeçalho fixo, pode usar depois TOP, LEFT, RIGHT e BOTTOM */
+  top: 0;           /* Quer dizer, cola em cim, na esquerda e na direita... deixando a barra fixa*/
+  left: 0;
+  right: 0;
+  z-index: 9999;    /* Z-Index é para ver quem tem prioridade de aparecer na frente da tela, sem isso, o texto passa por cima do cabeçalho */
 }
 
 .layout-cabecalho img {
@@ -13,6 +23,7 @@
 
 .layout-chamada {
   padding: 80px 0;
+  margin-top: 60px; /* Dar o Espaço entre o cabeçalho e o primeiro bloco */
 
   background-color: #7ab55c;
 }
