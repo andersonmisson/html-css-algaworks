@@ -72,6 +72,7 @@
   background-color: #bbb;
   color: #fff;
 
+  line-height: normal;
   font-size: 1em;
   text-decoration: none;
 }
@@ -83,11 +84,12 @@
   text-decoration: none;
 }
 
-.botao--assinar {
+.botao--assinar, .botao--login {
   background-color: #127d00;
 }
 
-.botao--assinar:hover, .botao--assinar:focus {
+.botao--assinar:hover, .botao--assinar:focus,  
+.botao--login: hover, botao-login:focus {       /* hover passando o mouse por cima do botão, focus quando vai no botão por teclado */
   background-color: #0e6400;
 }
 
@@ -222,4 +224,35 @@
   .botao-chaveador {
     display: none; /* Aqui eu estou dizendo que eu não quero exibir o botão, caso a tela esteja maior que 992px */
   }
+}
+
+/*--------------------*\
+  MENU
+\*--------------------*/
+.menu {     /* Menu lateral a esquerda */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 200px;
+  margin: 0;
+  padding: 20px;
+  border-right: 1px solid #eee; /* Uma borda cinza escuro, do lado direito da barra de menu */
+
+  font-size: 1.4rem; /* 14px */
+
+  background-color: #fbfbfb;
+
+  list-style: none;
+}
+
+.menu__item {
+  display: block;
+
+  line-height: 3;   /*  */
+}
+
+.menu__item--botao {
+  margin-top: 20px;
 }
