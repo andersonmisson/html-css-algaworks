@@ -2,3 +2,29 @@ body {
   font-size: 14px;
   font-family: Arial, sans-serif;
 }
+
+.tabela {
+  width: 100%;                  /* A tabela ocula 100% da pagina */
+  border-collapse: collapse;    /* O padrão é SEPARATE, celulas separadas, COLLAPSE é tudo junto */
+}
+
+.tabela td, .tabela th {
+  padding: 15px 10px;
+  border: 1px solid #ccc;       /* Borda em cada celula */
+}
+
+.tabela th {                    /* Cabeçalho */
+  background-color: #ececec;
+
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tabela tr:nth-child(even) {    /* Todas as linhas pares eu vou colocar as cores de fundo, se colocar HOVER primeiro, nao funciona direito */
+  background-color: #f7f7f7;
+}
+
+.tabela tr:hover {              /* Quando o mouse estiver em cima */
+  background-color: #faffcc;
+}
