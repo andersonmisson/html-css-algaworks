@@ -245,11 +245,16 @@
     left: 0;
     bottom: 0;
 
+    display: none; /* Para barra de menu sumir */
     width: 200px;
     padding: 20px;
     border-right: 1px solid #eee;	/* Uma borda cinza escuro, do lado direito da barra de menu */
 
     background-color: #fbfbfb;
+  }
+    
+  .menu--exibindo { /* Esse é comando para chamar o menu de volta */
+    display: block;
   }
 
   .menu__item {
