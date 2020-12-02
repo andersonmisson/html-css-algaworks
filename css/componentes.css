@@ -229,30 +229,50 @@
 /*--------------------*\
   MENU
 \*--------------------*/
-.menu {     /* Menu lateral a esquerda */
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-
-  width: 200px;
+.menu {				/* Menu lateral a esquerda */
   margin: 0;
-  padding: 20px;
-  border-right: 1px solid #eee; /* Uma borda cinza escuro, do lado direito da barra de menu */
 
   font-size: 1.4rem; /* 14px */
-
-  background-color: #fbfbfb;
 
   list-style: none;
 }
 
-.menu__item {
-  display: block;
+@media(max-width: 991px) {	
 
-  line-height: 3;   /*  */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #eee;	/* Uma borda cinza escuro, do lado direito da barra de menu */
+
+    background-color: #fbfbfb;
+  }
+
+  .menu__item {
+    display: block;
+
+    line-height: 3;			/* Pq no BOTÃO (PAI), está como NORMAL, e no menu__item tem alteração */
+  }
+
+  .menu__item--botao {
+    margin-top: 20px;
+  }
+
 }
 
-.menu__item--botao {
-  margin-top: 20px;
+@media(min-width: 992px) {
+
+  .menu__item {
+    display: inline-block; /* Comando para deixar o menu em linha */
+    padding-right: 20px;
+  }
+
+  .menu__item:last-of-type { /*Seleciona o ultimo elemento do menu, no caso o LOGIN, para ele não dar 20px de espaço*/
+    padding-right: 0px;
+  }
+
 }
